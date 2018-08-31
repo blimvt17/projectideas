@@ -3,15 +3,15 @@
 from random import randint
 
 
-def dice():
-    print(randint(1,6)
-    
-user_answer = input("Do you want to roll the dice one hundred times? (yes or no)")
-for x in range(100):
-    if user_answer == "yes":
-        dice()
-    else: 
-        print("Thank you for using the dice roller")
+def roll_dice(user_answer):
+    if user_answer > 0:
+        for x in range(user_answer)
+            print(randint(1,6))
+    else:
+        print("Thanks for rolling!")
+
+user_answer = int(input("How many times do you want to roll the dice?"))
+roll_dice(user_answer)
 
 # if dice_result == "1":
 #         one_counter = one_counter + 1 

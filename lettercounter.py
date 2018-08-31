@@ -2,19 +2,21 @@
 
 #count the number of letters in each string 
 #TODO: remember the naming convention and fix the function name
-def lettercounter(user_string, user_letter):
+def letter_counter(user_string, user_letter):
 	#TODO: it counts the letter in user_string and it's doing nothing with it. return the count to the caller using return statement
-    user_string.count(user_letter)
+    return = user_string.count(user_letter)
 	
 #TODO: try to count the letter using the for loop and create a test
 def letter_counter_with_for_loop(input_string, search_letter):
+	for (input_string, search_letter):
+		result = input_string.count(search_letter)
 	
 
 #test function. this is invoked when ran with pytest.
 #basically any function that has 'assert' is considered as a test function.
 #ex. pytest lettercounter.py
 def test_letter_counter():
-	actual = lettercounter("ddaddaddadd", "a")
+	actual = letter_counter("ddaddaddadd", "a")
 	expected = 3
 	assert expected == actual
 
