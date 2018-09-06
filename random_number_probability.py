@@ -17,5 +17,4 @@ def probability_calculator(num_of_generations, maximum_number):
 max_number = int(input("What do you want the maximum number to be?")
 
 #asking how many times the user wants to run a random number 
-num_of_generations = (int(input("How many time do you want to generate random numbers?")
-                            
+storage = int(input("What do you want the maximum number to be?")
