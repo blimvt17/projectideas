@@ -6,8 +6,8 @@
 
 ### In Progress
 - [ ] **rock_paper_scissors_game.py** : create a rps game 
-- [ ] **lettercounter.py** : count # of the characters 'a' or 'A' from a sentence  
-- [ ] **diceroller.py** : create a dice with numbers 1-6, roll the dice for 100 times and print the probabilities for each number to the console 
+- [ ] **letter_counter.py** : count # of the characters 'a' or 'A' from a sentence  
+- [ ] **dice_roller.py** : create a dice with numbers 1-6, roll the dice for 100 times and print the probabilities for each number to the console 
 - [ ] **random_number_probability** : prints the probability of numbers based on two user inputs; max_number, number_of_generations
 ### ideas
 - [ ] factorial
@@ -20,3 +20,6 @@
 - [ ] youtube_from_terminal
 - [ ] Google_news
 - [ ] create a function that returns a boolean by searching the directory if the file exists
+###practice
+**multiplication_table.py** : printing a multiplication table from 1 to 20 
+**recursion_prac.py**: practicing recursion and memoized solutions of a problem
