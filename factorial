@@ -1,0 +1,9 @@
+# TODO: add description
+def calculateFactorial(number):
+  # TODO: calculate factorial of the input number and store it to result variable
+  
+  return result
+
+# TODO: call the function, store the output to a variable
+
+# TODO: print the result to the console with description
