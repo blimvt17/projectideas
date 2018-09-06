@@ -20,6 +20,6 @@
 - [ ] youtube_from_terminal
 - [ ] Google_news
 - [ ] create a function that returns a boolean by searching the directory if the file exists
-###practice
-**multiplication_table.py** : printing a multiplication table from 1 to 20 
-**recursion_prac.py**: practicing recursion and memoized solutions of a problem
+### practice
+- [ ] **multiplication_table.py** : printing a multiplication table from 1 to 20 
+- [ ] **recursion_prac.py**: practicing recursion and memoized solutions of a problem
