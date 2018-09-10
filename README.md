@@ -8,10 +8,11 @@
 - [ ] **rock_paper_scissors_game.py** : create a rps game 
 - [ ] **letter_counter.py** : count # of the characters 'a' or 'A' from a sentence  
 - [ ] **dice_roller.py** : create a dice with numbers 1-6, roll the dice for 100 times and print the probabilities for each number to the console 
-- [ ] **random_number_probability** : prints the probability of numbers based on two user inputs; max_number, number_of_generations
+- [ ] **random_number_probability.py** : prints the probability of numbers based on two user inputs; max_number, number_of_generations
+- [ ] **factorial.py**
+- [ ] **multiplication_table.py** : Nested for loop. create a multiplication table, print the results to the console
+
 ### ideas
-- [ ] factorial
-- [ ] Nested for loop. create a multiplication table, print the results to the console
 - [ ] Palindrome checker - create a function that returns a boolean by checking if the word is a palindrome or not
 - [ ] Find the highest number in the list - given 100 numbers, store them in a list, and find the highest number
 - [ ] Password Validator - using while loop, ask user to provide a password until it matches the expected password
@@ -21,5 +22,4 @@
 - [ ] Google_news
 - [ ] create a function that returns a boolean by searching the directory if the file exists
 ### practice
-- [ ] **multiplication_table.py** : printing a multiplication table from 1 to 20 
 - [ ] **recursion_prac.py**: practicing recursion and memoized solutions of a problem
