@@ -22,8 +22,8 @@ def calculate_probability(num_of_generations, max_number):
         random_number_value = generate_random_numbers(maximum_number)
         number_counter[(random_number_value-1)] = number_counter[(random_number_value-1)] +1
         #printing result?
-        print(number_counter)
-        
+        return number_counter
+    print(number_counter)        
 
 
 #asking how many times the user wants to run a random number 

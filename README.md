@@ -1,5 +1,5 @@
 # projectideas
-//TODO: Insert a summary of this project
+- Summary: Practicing Python by building projects 
 
 
 ## List of projects
