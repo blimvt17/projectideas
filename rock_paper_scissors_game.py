@@ -1,6 +1,6 @@
 #game of rock paper scissors - user vs the computer 
 import random 
-
+ 
 #making a function called play which tests the conditionals of rps logic. 
 def play(choice, computer_choice):
     
@@ -8,9 +8,9 @@ def play(choice, computer_choice):
     display_win = "You won!"
     display_loss = "You lose :("
 
-    rock = "r"
-    paper = "p"
-    scissors = "s"
+    rock = "rock"
+    paper = "paper"
+    scissors = "scissors"
 
     if (choice == rock and computer_choice == rock):
         return display_tie
@@ -33,12 +33,19 @@ def play(choice, computer_choice):
         
 #added a for loop to running the function so you can specify in code how many times you want to play - simply change the value in the range()
 for x in range(1):
-    print("I challenge you to a game of Rock Paper Scissors")
-    player_choice = input("Choose (r)ock, (p)aper, or (s)cissors \n")
+    print("I challenge you to a game of Rock Paper Scissors!")
+    player_choice = input("Please choose rock, paper, scissors by typing the full word\n")
+    
+    #I want to exit program if they don't type the choice correctly 
+    if player_choice != 'rock' or 'paper' or 'scissors':
+        print('Please correctly type rock, paper or scissors')
+    
+    #syntax error
     choices = ['rock', 'paper', 'scissors']
-    computer_choice = random.choice(choices)
-    result = play(player_choice, computer_choice)
-    print(result)
+    elif: 
+        computer_choice = random.choice(choices)
+        result = play(player_choice, computer_choice)
+        print('The computer put out ' + computer_choice + '! ' + result)
 
 #test code that tests rock (player_choice) against the computers_choice
 # print("I challenge you to a game of Rock Paper Scissors")
