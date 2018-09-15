@@ -32,21 +32,27 @@ def play(choice, computer_choice):
         return display_tie
         
 #added a for loop to running the function so you can specify in code how many times you want to play - simply change the value in the range()
-for x in range(1):
-    print("I challenge you to a game of Rock Paper Scissors!")
+print("I challenge you to a game of Rock Paper Scissors!")
+keep_playing = "Yes"
+
+while keep_playing == 'Yes':
+    
+# for x in range(1):
+    # print("I challenge you to a game of Rock Paper Scissors!")
     player_choice = input("Please choose rock, paper, scissors by typing the full word\n")
     
     #I want to exit program if they don't type the choice correctly 
-    if player_choice != 'rock' or 'paper' or 'scissors':
+    valid_choices = ['rock', 'paper', 'scissors']
+    
+    if player_choice not in valid_choices:
         print('Please correctly type rock, paper or scissors')
     
-    #syntax error
-    choices = ['rock', 'paper', 'scissors']
-    elif: 
-        computer_choice = random.choice(choices)
+    else: 
+        computer_choice = random.choice(valid_choices)
         result = play(player_choice, computer_choice)
         print('The computer put out ' + computer_choice + '! ' + result)
-
+    keep_playing = input("Do you want to keep playing? Enter 'Yes' to keep playing \n")
+print("Goodbye") 
 #test code that tests rock (player_choice) against the computers_choice
 # print("I challenge you to a game of Rock Paper Scissors")
 # player_choice = "r"
