@@ -7,7 +7,8 @@ def generate_random_numbers(max_number):
     
 
 def calculate_probability(num_of_generations, max_number):
-    number_counter = [0]*num_of_generations            
+    number_counter = [0]*max_number            
+    probability_list = list()
     '''
     TODO
     think about what's going to happen in this for loop
@@ -20,8 +21,10 @@ def calculate_probability(num_of_generations, max_number):
         random_number_value = generate_random_numbers(max_number)
         number_counter[(random_number_value-1)] = number_counter[(random_number_value-1)] +1
         #printing result?
-        return number_counter
-    print(number_counter)        
+    for i in range(max_number):
+        probability_list.append(str(round(number_counter[i-1] / num_of_generations * 100, 2))+"%")
+    return probability_list
+    
 
 
 #asking how many times the user wants to run a random number 
@@ -30,5 +33,5 @@ max_number = int(input("What do you want the maximum number to be?"))
 num_of_generations = int(input("How many time do you want to generate random numbers?"))
 
 #calling the probability function
-calculate_probability(num_of_generations,max_number)
-                            
+probability_list = calculate_probability(num_of_generations,max_number)
+print(probability_list)                          

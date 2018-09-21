@@ -4,7 +4,7 @@ import random
 #making a function called play which tests the conditionals of rps logic. 
 def play(choice, computer_choice):
     
-    display_tie = 'It's a tie!'
+    display_tie = "It's a tie!"
     display_win = 'You won!'
     display_loss = 'You lose :('
     error_message = 'Invalid choice'
@@ -50,7 +50,7 @@ while keep_playing == 'Yes':
         computer_choice = random.choice(valid_choices)
         result = play(player_choice, computer_choice)
         print('The computer put out ' + computer_choice + '! ' + result)
-    keep_playing = input('Do you want to keep playing? Enter 'Yes' to keep playing \n')
+    keep_playing = input("Do you want to keep playing? Enter 'Yes' to keep playing \n")
 print('Thanks for playing!') 
 #test code that tests rock (player_choice) against the computers_choice
 # print('I challenge you to a game of Rock Paper Scissors')
