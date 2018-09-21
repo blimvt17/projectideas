@@ -39,8 +39,12 @@ def display_dice_probability(user_answer):
     dice_count = [one_counter, two_counter, three_counter, four_counter, five_counter, six_counter]
 
     # after rolling the dice for x number of times, it prints all the counters
-    for i in range[dice_count]:
-        print("You've rolled the number 1 " + str(dice_count) + "times!")
+    print("You've rolled the one " + str(dice_count[0]) + " times!")
+    print("You've rolled the two " + str(dice_count[1]) + " times!")
+    print("You've rolled the three " + str(dice_count[2]) + " times!")
+    print("You've rolled the four " + str(dice_count[3]) + " times!")
+    print("You've rolled the five " + str(dice_count[4]) + " times!")
+    print("You've rolled the six " + str(dice_count[5]) + " times!")
     
 
 # DDP function takes an input - number, how many times you want to roll the dice

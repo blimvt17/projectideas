@@ -7,7 +7,7 @@
 ### In Progress
 - [ ] **rock_paper_scissors_game.py** : create a rps game 
 - [ ] **letter_counter.py** : count # of the characters 'a' or 'A' from a sentence  
-- [ ] **dice_roller.py** : create a dice with numbers 1-6, roll the dice for how many times user wants and print the probabilities for each number to the console 
+- [x] **dice_roller.py** : create a dice with numbers 1-6, roll the dice for how many times user wants and prints the results for each number to the console 
 - [ ] **random_number_probability.py** : prints the probability of numbers based on two user inputs; max_number, number_of_generations
 - [x] **factorial.py** : gets an integer from user and returns the factorial result 
 - [x] **multiplication_table.py** : Nested for loop. create a multiplication table, print the results to the console
