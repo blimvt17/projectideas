@@ -11,9 +11,10 @@
 - [ ] **random_number_probability.py** : prints the probability of numbers based on two user inputs; max_number, number_of_generations
 - [x] **factorial.py** : gets an integer from user and returns the factorial result 
 - [x] **multiplication_table.py** : Nested for loop. create a multiplication table, print the results to the console
+- [x] **Palindrome checker** - create a function that checks if input string is a palindrome or not
 
 ### ideas
-- [ ] Palindrome checker - create a function that returns a boolean by checking if the word is a palindrome or not
+
 - [ ] Find the highest number in the list - given 100 numbers, store them in a list, and find the highest number
 - [ ] Password Validator - using while loop, ask user to provide a password until it matches the expected password
 - [ ] Swap the values - swap the values of the two variables of type integer
