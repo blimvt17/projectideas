@@ -4,8 +4,8 @@
 
 ## List of projects
 
-### In Progress
-- [ ] **rock_paper_scissors_game.py** : create a rps game 
+### Finished or in progress projects
+- [x] **rock_paper_scissors_game.py** : create a rps game 
 - [ ] **letter_counter.py** : count # of the characters 'a' or 'A' from a sentence  
 - [x] **dice_roller.py** : create a dice with numbers 1-6, roll the dice for how many times user wants and prints the results for each number to the console 
 - [x] **random_number_probability.py** : prints the probability of numbers based on two user inputs; max_number, number_of_generations
