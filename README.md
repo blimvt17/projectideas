@@ -16,10 +16,6 @@
 ### ideas
 
 - [ ] Find the highest number in the list - given 100 numbers, store them in a list, and find the highest number
-    # create a function with input = list of ints, output = max number
-    # get user input in the form of "1, 6, 5, 4, 2"
-    # convert user input to list of ints
-    # find the max number and print it to console
 - [ ] Password Validator - using while loop, ask user to provide a password until it matches the expected password
 - [ ] Swap the values - swap the values of the two variables of type integer
 - [ ] find the prime numbers from 1-100 and print them to the console
