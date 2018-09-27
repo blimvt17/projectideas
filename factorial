@@ -1,4 +1,4 @@
-# TODO: add description
+open# TODO: add description
 def calculateFactorial(number):
   # TODO: calculate factorial of the input number and store it to result variable
   

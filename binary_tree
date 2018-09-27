@@ -1,0 +1,19 @@
+TREE: frequently-used data structure to simulate a hierarchical tree structure 
+	-each node will have a ROOT VALUE and a list of REFERENCES to other nodes
+	-these other nodes are called Child nodes
+BINARY TREE: one of the most typical tree structure, 
+	-EACH node has at MOST TWO children (referred to as left child and right child)
+
+PRE-ORDER TRAVERSAL:
+	1. visit the root  
+	2. traverse left subtree 
+	3. traverse right subtree
+IN-ORDER TRAVERSAL: 
+	1. traverse left subtree 
+	2. visit the root 
+	3. traverse right subtree
+POST-RDER TRAVERSAL:
+	1. traverse left subtree
+	2. traverse right subtree
+	3. visit the root 
+	- when you delete nodes in a tree, deletion process will be in post-order 
