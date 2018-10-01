@@ -1,21 +1,19 @@
 #given an input of numbers
 #output the highest number 
     
-def number_splitter(list_of_numbers):
-    return list(map(int, list_of_numbers.split(', ')))
 
-def highest_number_finder(list_of_numbers):
-    split_numbers = number_splitter(list_of_numbers)
+def number_splitter(user_given_numbers):
+    return list(map(int, user_given_numbers.split(', ')))
+
+
+def highest_number_finder(user_given_numbers):
+    listed_numbers = number_splitter(user_given_numbers)
     max_number = None
-    for numbers in split_numbers: 
-        if split_numbers[numbers] > max_number:
-            max_number = split_numbers[numbers] 
-        else:
-            continue
-
-    
+    max_number = max(listed_numbers)
+    return max_number
     
 
 #ask user for how many numbers to put in list 
-list_of_numbers = (input('Please enter the number in the following format: #, #, #, #, etc..\n'))
-highest_number_finder(list_of_numbers)
+user_given_numbers = (input('Please enter the number in the following format: #, #, #, #, etc..'))
+found_max_number = highest_number_finder(user_given_numbers)
+print('The maximum number found was: ' + str(found_max_number))
